@@ -30,7 +30,6 @@
 
   .hero-text{
     background-image: url(assets/img/wallpaper.jpg);
-
     padding:40px;
     background-size: 100%;
 
@@ -74,3 +73,24 @@
       z-index:1;
           position: relative;
   }
+
+  /*OTHER SERVICES*/
+
+.moose{
+  background-image: url(assets/img/outreach_sessions_bw.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:350px;
+  height:300px;
+  padding:110px 20px;
+  color:white;
+
+}
+.sessions{
+
+background-image: url(assets/img/moose_in_da_house_project_bw.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+width:350px;
+height:300px;
+}
