@@ -17,33 +17,61 @@ as well as for things like secondary buttons and links.*/
 }
 
 .logo {
-  line-height: 1 !important;
+  line-height: 1.15 !important;
+  padding: 15px 0;
 }
 
-/*LOGO SECTION*/
+/*LOGO SECTION*************************************************************************************************/
 .navbar-brand {
   font-size: 36px;
-  color: #3c3c3c;
+  color: #5a6c7a;
   letter-spacing: 1.3px;
   word-spacing: 5px;
   position: relative;
   display: block;
   font-family: "baskervaldadfstd-heavy" !important;
+  padding-top: 15px;
   font-weight: 900;
   text-shadow: 0 1px, 1px 0px, 1px 1px;
+  margin: 0;
+  padding: 0;
 }
 
-/*HERO SECTION*/
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 5px 15px;
+  color: black;
+  font-size: 14px;
+}
+
+.my-1 {
+  width: 50%;
+}
+
+.navbar-brand ~ p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #888888;
+}
+
+/*HERO SECTION*****************************************************************************************/
 .jumbotron {
   padding: 0 2rem;
   position: relative;
   background: linear-gradient(to right, #334e68, rgba(51, 78, 104, 0.9), rgba(51, 78, 104, 0.9), rgba(51, 78, 104, 0.1), transparent), url("assets/img/hero_ccc.jpg") no-repeat center;
   background-size: cover;
   background-blend-mode: multiply;
+  margin: 0;
 }
 
 .hero-text {
-  padding: 80px;
+  padding: 80px 0;
   background-size: 100%;
 }
 
@@ -60,8 +88,7 @@ h1 {
   color: #bff8fd;
   font-size: 18px;
   line-height: 1.3;
-  margin: 0;
-  margin-bottom: 50px;
+  margin: 0 0 50px;
 }
 
 .highlight {
@@ -106,18 +133,66 @@ h1 {
   color: #d2d9e3;
 }
 
-/* MAIN SECTION*/
-.main-raised {
-  background: #547678;
-  color: white;
-  margin: -60px 30px 0;
-  border-radius: 6px;
-  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  position: relative;
+/*MAIN SECTION****************************************************************************************/
+.main-content {
+  background: #334e68;
 }
 
-/*OTHER SERVICES*/
+.main-raised {
+  background: white;
+  color: black;
+  /*  margin: -60px 30px 0;
+  border-radius: 6px;
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),
+   0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+  z-index: 1;
+  position: relative;*/
+}
+
+.main-title {
+  color: #5b6c7b;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+.main-paragraphs {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.devices {
+  margin: auto;
+  color: #c2ced1;
+  font-size: 50px;
+}
+
+.fa-mobile-alt {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.fa-tablet-alt {
+  font-size: 48px;
+  margin: 10px;
+}
+
+.fa-laptop {
+  font-size: 60px;
+  margin: 10px;
+}
+
+.fa-desktop {
+  font-size: 72px;
+  margin: 10px;
+}
+
+.schedule {
+  background: #044e53;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+
+/*OTHER SERVICES***********************************************************************************************/
 .moose {
   background-image: url("assets/img/outreach_sessions_bw.jpg");
   background-size: cover;
