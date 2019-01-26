@@ -176,7 +176,8 @@ h1 {
 .main-title{
   color:hsla(209, 15%, 42%, 1);
   font-weight:bold;
-  margin: 40px 0;
+  margin: 30px 0;
+  font-size: 36px;
 
 }
 .main-paragraphs{
@@ -209,6 +210,24 @@ h1 {
   background: hsl(184, 91%, 17%);
   border-radius: 5px;
       margin: 30px 0;
+      font-size:14px;
+}
+.schedule .first-column li{
+  font-size: 20px;
+font-weight: 600;
+text-align: center;
+}
+.schedule .second-column li span{
+  color:hsl(185, 94%, 87%);
+}
+ul{
+  margin: auto;
+    padding: 10px;
+}
+li{
+  display:block!important;
+  color: white;
+  border-right: solid white 1px;
 }
 /*OTHER SERVICES***********************************************************************************************/
 
