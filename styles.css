@@ -62,7 +62,7 @@ as well as for things like secondary buttons and links.*/
 
 /*HERO SECTION*****************************************************************************************/
 .jumbotron {
-  padding: 20px 2rem;
+  padding: 0 2rem;
   position: relative;
   background: linear-gradient(to right, #334e68, rgba(51, 78, 104, 0.9), rgba(51, 78, 104, 0.9), rgba(51, 78, 104, 0.1), transparent), url("assets/img/hero_ccc.jpg") no-repeat center;
   background-size: cover;
